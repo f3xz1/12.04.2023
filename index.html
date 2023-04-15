@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Durbo.az</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <link rel="stylesheet" href="./stiles.css" />
+
+  <body style="background-color: rgb(244, 241, 241)">
+    <div display="flex">
+      <div display="flex">
+        <ul id="DotAzRefsUl">
+          <li>
+            <a href="https://Tap.az" class="DotAzRefs">
+              <h5>Tap.az</h5>
+            </a>
+          </li>
+          <li>
+            <a href="https://Bina.az" class="DotAzRefs">
+              <h5>Bina.az</h5>
+            </a>
+          </li>
+          <li>
+            <a href="https://Boss.az" class="DotAzRefs">
+              <h5>Boss.az</h5>
+            </a>
+          </li>
+          <h6>Поддержка:(012)599-08-01; (012)505-77-55</h6>
+          <button class="UpperButtons">Помощь</button>
+          <button class="UpperButtons">AZ</button>
+          <button class="UpperButtons">♥ Избранное</button>
+          <button class="UpperButtons">☻ Войти</button>
+        </ul>
+      </div>
+    </div>
+
+    <div display="flex" class="RedLine">
+      <ul id="DotAzRefsUl" display="flex">
+        <li>
+          <h3>
+            <a class="Redline_a" href="https://Turbo.az" color="inherit"
+              >Turbo.az</a
+            >
+          </h3>
+        </li>
+        <li>
+          <button class="RedLineButton">Все обьявления</button>
+        </li>
+        <li>
+          <button class="RedLineButton">Автосалоны</button>
+        </li>
+        <li>
+          <button class="RedLineButton">Запчасти и аксессуары</button>
+        </li>
+        <li>
+          <button class="BorderButton" style="background-color: #7ed321">
+            + Добавить обьявления
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div style="margin: 0px 60px">
+      <div class="DivBorder" style="display: inline-block">
+        <label for="Марка">Марка:</label>
+        <select name="Марка" size="1" style="width: 150px">
+          <option value="1">1</option>
+          <option value="2">Alfa Romeo</option>
+          <option value="3">3</option>
+        </select>
+      </div>
+
+      <div
+        class="DivBorder"
+        style="display: inline-block; margin: 0px 20px; width: 200px"
+      >
+        <label for="Модель">Модель:</label>
+        <select name="Модель" size="1" style="width: 130px" disabled>
+          <option value="1">1</option>
+          <option value="2">C4</option>
+          <option value="3">Giulia</option>
+        </select>
+      </div>
+
+      <div class="DivBorder" style="display: inline-block; margin: 0px 20px">
+        <label>
+          <input name="type" type="radio" />
+          Все
+        </label>
+        <label>
+          <input name="type" type="radio" />
+          Новые
+        </label>
+        <label for="">
+          <input name="type" type="radio" />
+          С пробегом
+        </label>
+      </div>
+
+      <div class="DivBorder" style="display: inline-block; margin: 0px 20px">
+        <label for="Город">Город:</label>
+        <select name="Город" size="1">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">Баку</option>
+        </select>
+      </div>
+    </div>
+    <div style="margin: 0px 60px">
+      <div class="DivBorder" style="display: inline-block; padding: 0px 0px">
+        <input class="PriceInput" placeholder="Цена от" />
+        <input class="PriceInput" placeholder="Цена до" />
+      </div>
+      <div class="DivBorder" style="display: inline-block; margin-left: 25px">
+        <select size="1">
+          <option value="1" selected>AZN</option>
+          <option value="2">USD</option>
+          <option value="3">EUR</option>
+        </select>
+      </div>
+
+      <div class="DivBorder" style="display: inline-block; margin-left: -10px">
+        <div style="display: inline-block">
+          <label>
+            Кредит:
+            <input type="checkbox" />
+          </label>
+        </div>
+        <div style="display: inline-block">
+          <label>
+            Бартер:
+            <input type="checkbox" />
+          </label>
+        </div>
+      </div>
+      <div class="DivBorder" style="display: inline-block; margin-left: 10px">
+        <input placeholder="Тип кузова" list="options" />
+        <datalist id="options">
+          <option value="Автобус"></option>
+          <option value="Мопед"></option>
+          <option value="Пикап"></option>
+        </datalist>
+      </div>
+
+      <div class="DivBorder" style="display: inline-block">
+        <label>Год от</label>
+        <select size="1">
+          <option value="1" selected>2023</option>
+          <option value="2">2022</option>
+          <option value="3">2021</option>
+        </select>
+      </div>
+      <div class="DivBorder" style="display: inline-block">
+        <label>до</label>
+        <select size="1">
+          <option value="1" selected>2023</option>
+          <option value="2">2022</option>
+          <option value="3">2021</option>
+        </select>
+      </div>
+    </div>
+    <div style="display: flex; margin: 20px 70px">
+      <label>
+        Сегодня:
+        <a class="a" href="https://ru.turbo.az/autos">1300 Новых обьявлений</a>
+      </label>
+
+      <button
+        class="BottomButton"
+        style="text-align: right; margin-left: 360px"
+      >
+        Сбросить
+      </button>
+      <button class="BottomButton" style="text-align: right">
+        Еще фильтры
+      </button>
+      <button class="BorderButton" style="background-color: #ca1016">
+        Еще фильтры
+      </button>
+    </div>
+  </body>
+</html>

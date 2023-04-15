@@ -1,0 +1,64 @@
+#DotAzRefsUl {
+  display: flex;
+  margin: 10;
+  list-style-type: none;
+  justify-content: space-around;
+}
+
+.DotAzRefs {
+  color: gray;
+}
+
+.UpperButtons {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Redline_a {
+  text-decoration: none;
+  color: white;
+}
+
+.RedLine {
+  background-color: #ca1016;
+  color: white;
+}
+.RedLineButton {
+  padding: 25px 5px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+
+.BorderButton {
+  height: 25px;
+  width: 160px;
+  border: none;
+  margin: 20px;
+  background-color: #7ed321;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.PriceInput {
+  width: 70px;
+  margin: 5px;
+}
+
+.DivBorder {
+  border: 1px solid gray;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.BottomButton {
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: #ca1016;
+  cursor: pointer;
+}
